@@ -1,0 +1,23 @@
+.container{
+  margin:0 auto;
+  background:#CCC;
+  width:70%; /* keeping things fluid */
+  height:500px;
+  position:relative;
+}
+
+.center {
+  width:70%; /* Inherited width of parent */
+  height:250px;
+  background:#111;
+  left:50%; /* Half width of parent */
+  top:50%; /* Half height of parent */
+  margin:-125px 0 0 -35%;  
+  /* -35% = Half of the parent container 
+  where width originally = (70%)
+-
+  -125px because 125 x 2 = 250 so,
+  that + height of element = height of parent
+*/
+  position:absolute;
+}
